@@ -24,17 +24,7 @@ public class ImageMetData {
         ImageMetData imageMetData = new ImageMetData();
 
         try {
-//            imageMetData.getMetData("res/DJI_0002.JPG");
-//            imageMetData.getMetData("res/DJI_0291.JPG");
-//            imageMetData.getMetData("res/DJI_0001.JPG");
-//            imageMetData.getMetData("res/DJI_0002.JPG");
-//            imageMetData.getMetData("res/DJI_0031.JPG");
-//            imageMetData.getMetData("res/kfly_real_2021-01-250059.jpg");
-//            imageMetData.getMetData("res/kfly_real_2021-01-190126.jpg");
-//            imageMetData.getMetData("res/DJI_0077.jpg");
-            imageMetData.getMetData("res/kfly_real_2021-01-250010.jpg");
-            imageMetData.getMetData("res/kfly_real_2021-01-250016.jpg");
-            imageMetData.getMetData("res/DJI_0017.jpg");
+            imageMetData.getMetData("res/kfly_real_2021-01-260045.jpg");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ImageProcessingException e) {
